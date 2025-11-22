@@ -23,8 +23,7 @@ export const CatalogGrid = () => {
       <div className="mx-auto max-w-7xl">
         <h2 className="text-4xl font-extrabold text-slate-800 mb-6 text-center tracking-tight">One Protocol. Every Asset.</h2>
         <p className="text-lg text-slate-600 text-center mb-12 max-w-3xl mx-auto leading-relaxed">
-          Whether it’s USDC or SAUCE, wrap any Hedera asset into a magic link. Skip the &quot;seed phrase&quot; tutorial—Koo allows your friends to receive value first and generate a wallet automatically, making it the easiest entry point into the ecosystem.
-        </p>
+          Whether it’s USDC or SAUCE, wrap any Hedera asset into a magic gift card. Recipients claim via Social Login, spinning up a wallet instantly without seed phrases. We abstract away the complexity, making this the single easiest entry point into the Hedera ecosystem.        </p>
 
         {/* Infinite Marquee Container */}
         <div className="relative w-full overflow-hidden py-10 mask-linear-gradient">

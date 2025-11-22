@@ -35,11 +35,7 @@ export const Hero = () => {
 
         {/* 2. Subtitle: Larger text, constrained width, specific margin bottom */}
         <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-10 max-w-lg">
-          Wrap HBAR and assets into magic gift cards.
-          <span className="font-semibold text-slate-800"> Text a magic link </span>
-          or
-          <span className="font-semibold text-slate-800"> print a physical card</span>
-          —zero friction, instant settlement.
+          Turn HBAR and Assets into shareable instruments. Whether sent via DM or handed over as a physical card, every gift creates a new on-chain user instantly.
         </p>
 
         {/* 3. CTA Button: anchored below the text */}
