@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F2FBF9;
+  --foreground: #0F172A;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-page: #F2FBF9;
+  --color-dark: #0F172A;
+  --color-primary: #22D3EE;
+  --color-secondary: #F59E0B;
+  
+  --font-sans: var(--font-plus-jakarta-sans);
+  
+  --shadow-clay: 0 10px 15px -3px rgba(34, 211, 238, 0.2), 0 4px 6px -2px rgba(34, 211, 238, 0.1);
+}
+
+body {
+  background-color: var(--color-page);
+  color: var(--color-dark);
+  font-family: var(--font-sans);
+}
+
+.clay-card {
+  @apply bg-white rounded-[2rem];
+  box-shadow: 
+    inset 0px 2px 4px 0px rgba(255, 255, 255, 1), 
+    inset 0px -4px 6px 0px rgba(0, 0, 0, 0.05), 
+    0px 20px 40px -10px rgba(34, 211, 238, 0.15); 
+}
+
+.clay-button {
+  @apply bg-[#22D3EE] text-white font-bold rounded-full transition-transform active:scale-95;
+  box-shadow: 
+    inset 0px 3px 6px rgba(255,255,255,0.4), 
+    inset 0px -3px 6px rgba(0,0,0,0.1),
+    0px 10px 20px -5px rgba(34, 211, 238, 0.4);
+}
+
+/* Hide scrollbar for horizontal scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
